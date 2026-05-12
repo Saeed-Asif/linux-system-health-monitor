@@ -1,0 +1,35 @@
+==================================
+ System Health Report 
+ Generated on: Tue May 12 05:35:14 PM PKT 2026
+==================================
+
+Uptime:
+ 17:35:14 up 3 days, 26 min,  2 users,  load average: 0.66, 0.71, 0.55
+
+Memory Usage:
+               total        used        free      shared  buff/cache   available
+Mem:           7.6Gi       4.5Gi       1.5Gi       632Mi       2.7Gi       3.2Gi
+Swap:          4.0Gi       998Mi       3.0Gi
+
+Disk Usage:
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           782M  3.6M  779M   1% /run
+/dev/sdb2       109G   43G   61G  41% /
+tmpfs           3.9G  352M  3.5G   9% /dev/shm
+tmpfs           5.0M   12K  5.0M   1% /run/lock
+efivarfs         64K   21K   39K  35% /sys/firmware/efi/efivars
+/dev/sdb1       1.1G  6.2M  1.1G   1% /boot/efi
+tmpfs           782M  136K  782M   1% /run/user/1001
+tmpfs           782M  152K  782M   1% /run/user/1000
+/dev/sda3        66G   42G   24G  65% /media/saeed-asif/Imp Data
+/dev/sda2       201G  135G   67G  67% /media/saeed-asif/Personal
+
+Top 5 Processes:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+saeed-a+    5730  1.9  8.7 52069644 699436 ?     SLl  May09  83:41 /opt/google/chrome/chrome --profile-directory=Profile 8 --app-id=hnpfjngllnobngcgfapefoaidbinmjnm
+saeed-a+   43464  0.9  6.3 1526422580 510284 ?   Sl   May11  13:25 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=5739 --enable-crash-reporter=5ca98fba-8749-497f-a3dc-74629311074d, --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=1629 --time-ticks-at-unix-epoch=-1778328501082682 --launch-time-ticks=73085367995 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,487367706144317561,13855837270795513182,2097152 --field-trial-handle=3,i,4529843503099028029,4495881831112692488,262144 --disable-features=EyeDropper --variations-seed-version --pseudonymization-salt-handle=7,i,13559147571543467043,11022445712506012591,4 --trace-process-track-uuid=3190710512753043515
+saeed-a+   56320  3.7  5.0 1520512300 405416 ?   Sl   16:37   2:09 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=5739 --enable-crash-reporter=5ca98fba-8749-497f-a3dc-74629311074d, --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=2530 --time-ticks-at-unix-epoch=-1778328501082682 --launch-time-ticks=91468089130 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,3223392742153864841,2587685032612071710,2097152 --field-trial-handle=3,i,4529843503099028029,4495881831112692488,262144 --disable-features=EyeDropper --variations-seed-version --pseudonymization-salt-handle=7,i,13559147571543467043,11022445712506012591,4 --trace-process-track-uuid=3190711357027749464
+saeed-a+   51562  5.3  5.0 1518548128 402752 ?   Sl   15:04   8:02 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=5739 --enable-crash-reporter=5ca98fba-8749-497f-a3dc-74629311074d, --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=2120 --time-ticks-at-unix-epoch=-1778328501082682 --launch-time-ticks=85889846142 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,3773629831956234391,14823968923450351710,2097152 --field-trial-handle=3,i,4529843503099028029,4495881831112692488,262144 --disable-features=EyeDropper --variations-seed-version --pseudonymization-salt-handle=7,i,13559147571543467043,11022445712506012591,4 --trace-process-track-uuid=3190710972840591374
+saeed-a+   57425  3.5  4.0 1518525540 325736 ?   Sl   16:45   1:44 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=5739 --enable-crash-reporter=5ca98fba-8749-497f-a3dc-74629311074d, --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=2617 --time-ticks-at-unix-epoch=-1778328501082682 --launch-time-ticks=91988445053 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,2259968644004507081,12999371085871781560,2097152 --field-trial-handle=3,i,4529843503099028029,4495881831112692488,262144 --disable-features=EyeDropper --variations-seed-version --pseudonymization-salt-handle=7,i,13559147571543467043,11022445712506012591,4 --trace-process-track-uuid=3190711438550390327
+
+Report Complete!
