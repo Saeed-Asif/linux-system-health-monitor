@@ -56,7 +56,8 @@ linux-system-health-monitor/
 ## 1️⃣ Clone Repository
 
 ```bash
-gh repo clone Saeed-Asif/linux-system-health-monitor```
+gh repo clone Saeed-Asif/linux-system-health-monitor
+```
 ---
 
 ## 2️⃣ Move into Project Directory
